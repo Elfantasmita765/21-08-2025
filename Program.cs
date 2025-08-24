@@ -4,7 +4,7 @@ using System.Runtime.CompilerServices;
 
 var persona = new Personas();
 Personas persona1 = new Personas();
-Personas persona2 = new Estudiantes();
+var persona2 = new Estudiantes(); //SI es: Personas persona2 = new Estudiantes(); no funcion (o eso creo)
 
 persona.Id = 1;
 persona.Nombre = "Pepito Perez";
@@ -26,6 +26,24 @@ foreach (var elemento in persona.VideoJuegos)
 Console.WriteLine("\n"); //caracter de salto de linea
 
 Console.WriteLine("Hola");
+
+persona2.Id = 2;
+persona2.Nombre = "Juan Carlos";
+persona2.Activo = false;
+persona2.Salario = 140.0m;
+persona2.Tipo = new Tipos() { Id = 2, Nombre = "Soltero" };
+persona2.VideoJuegos = new List<VideoJuegos>();
+persona2.VideoJuegos.Add(new VideoJuegos() { Id = 4, Nombre = "GTA" });
+persona2.VideoJuegos.Add(new VideoJuegos() { Id = 3, Nombre = "ZZZ" });
+persona2.Carnet = "1025465789";
+
+Console.WriteLine(persona2.Nombre);
+Console.WriteLine(persona2.Carnet);
+foreach (var i in persona2.VideoJuegos)
+{
+    Console.WriteLine(i.Id);
+    Console.WriteLine(i.Nombre);
+}
 
 public class Tipos
 {
@@ -56,7 +74,7 @@ public class Estudiantes : Personas //herencia
 }
 
 /*
-﻿Console.WriteLine("Hello, World!");
+Console.WriteLine("Hello, World!");
 
 Personas persona = new Personas();
 var persona1 = new Personas();
