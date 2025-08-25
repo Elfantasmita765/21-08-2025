@@ -4,7 +4,7 @@ using System.Runtime.CompilerServices;
 
 var persona = new Personas();
 Personas persona1 = new Personas();
-var persona2 = new Estudiantes(); //SI es: Personas persona2 = new Estudiantes(); no funcion (o eso creo)
+var persona2 = new Estudiantes(); //SI es: Personas persona2 = new Estudiantes(); no funcion (o eso creo), (Es polimorfismo si es Personas persona2)
 
 persona.Id = 1;
 persona.Nombre = "Pepito Perez";
