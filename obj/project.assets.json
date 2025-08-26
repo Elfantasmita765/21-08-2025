@@ -8,19 +8,19 @@
     "net9.0": []
   },
   "packageFolders": {
-    "C:\\Users\\PC\\.nuget\\packages\\": {}
+    "C:\\Users\\user\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\PC\\Desktop\\21-08-2025\\21-08-2025.csproj",
+      "projectUniqueName": "C:\\Users\\user\\OneDrive\\Desktop\\21-08-2025\\21-08-2025.csproj",
       "projectName": "21-08-2025",
-      "projectPath": "C:\\Users\\PC\\Desktop\\21-08-2025\\21-08-2025.csproj",
-      "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\PC\\Desktop\\21-08-2025\\obj\\",
+      "projectPath": "C:\\Users\\user\\OneDrive\\Desktop\\21-08-2025\\21-08-2025.csproj",
+      "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\user\\OneDrive\\Desktop\\21-08-2025\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net9.0"
