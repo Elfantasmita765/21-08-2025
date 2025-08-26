@@ -68,11 +68,28 @@ public class Personas
     public List<VideoJuegos> VideoJuegos = new List<VideoJuegos>();
 }
 
-public class Estudiantes : Personas //herencia
+public class Estudiantes : Personas, Estudiantes2, Seguros //herencia
 {
     public String? Carnet = "";
+    public bool Matricula()
+    {
+        return true;
+    }
+
+    public decimal Seguro(string nombre)
+    {
+        return 0.0m;
+    }
+}
+public interface Estudiantes2
+{
+    bool Matricula();
 }
 
+public interface Seguros
+{
+    decimal Seguro(string nombre);
+}
 /*
 Console.WriteLine("Hello, World!");
 
@@ -129,3 +146,5 @@ public class Estudiantes : Personas
     public string? Carnet;
 }
 */
+
+//Clase 26/08/2025
