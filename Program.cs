@@ -25,8 +25,6 @@ foreach (var elemento in persona.VideoJuegos)
 
 Console.WriteLine("\n"); //caracter de salto de linea
 
-Console.WriteLine("Hola");
-
 persona2.Id = 2;
 persona2.Nombre = "Juan Carlos";
 persona2.Activo = false;
@@ -54,13 +52,13 @@ public class Tipos
 public class VideoJuegos
 {
     public int Id = 0;
-    public String? Nombre = "";
+    public string? Nombre = "";
 }
 
 public class Personas
 {
     public int Id = 0;
-    public String? Nombre = "";
+    public string? Nombre = "";
     public DateTime Fecha = DateTime.Now;
     public bool Activo = false;
     public decimal Salario = 0.0m;
@@ -70,7 +68,7 @@ public class Personas
 
 public class Estudiantes : Personas, Estudiantes2, Seguros //herencia
 {
-    public String? Carnet = "";
+    public string? Carnet = "";
     public bool Matricula()
     {
         return true;
